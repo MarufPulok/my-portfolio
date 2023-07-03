@@ -1,10 +1,26 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 
 export default function Header() {
   return (
     <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
-      <div className="flex items-center">
+      <motion.div
+        className="flex items-center"
+        initial={{
+          x: -500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+      >
         <SocialIcon
           url="https://www.youtube.com"
           fgColor="gray"
@@ -20,8 +36,23 @@ export default function Header() {
           fgColor="gray"
           bgColor="transparent"
         />
-      </div>
-      <div className="flex flex-row items-center text-gray-300 cursor-pointer">
+      </motion.div>
+      <motion.div
+        className="flex flex-row items-center text-gray-300 cursor-pointer"
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+      >
         <SocialIcon
           className="cursor-pointer"
           network="email"
@@ -31,7 +62,7 @@ export default function Header() {
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
           Get in touch
         </p>
-      </div>
+      </motion.div>
     </header>
   );
 }

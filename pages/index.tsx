@@ -11,9 +11,9 @@ export default function Home() {
       <Head>
         <title>My Portfolio</title>
       </Head>
-      {/* Header */}
       <Header />
       {/* Me */}
+
       {/* About */}
       {/* Experience */}
       {/* Skills */}
