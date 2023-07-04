@@ -1,3 +1,5 @@
+import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Me from "@/components/Me";
 import { Inter } from "next/font/google";
@@ -14,11 +16,17 @@ export default function Home() {
       </Head>
       <Header />
       {/* Me */}
-      <section id="me" className="snap-center">
+      <section id="me" className="snap-start">
         <Me />
       </section>
       {/* About */}
+      <section id="about" className="snap-center">
+        <About />
+      </section>
       {/* Experience */}
+      <section id="experience" className="snap-center">
+        <Experience />
+      </section>
       {/* Skills */}
       {/* Projects */}
       {/* Contact Me */}

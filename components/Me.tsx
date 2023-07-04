@@ -25,7 +25,7 @@ export default function Me() {
         alt=""
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
       />
-      <div className="">
+      <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer
         </h2>
