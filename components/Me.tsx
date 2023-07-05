@@ -46,6 +46,9 @@ export default function Me() {
           <Link href="#projects">
             <button className="meBtn">Projects</button>
           </Link>
+          <Link href="#contact">
+            <button className="meBtn">Contact</button>
+          </Link>
         </div>
       </div>
     </div>
