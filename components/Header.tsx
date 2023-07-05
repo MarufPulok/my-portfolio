@@ -23,17 +23,22 @@ export default function Header() {
         }}
       >
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://www.facebook.com/maruf.hossain.8098/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://github.com/MarufPulok/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://www.linkedin.com/in/maruf-hossain-2633951bb/"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.instagram.com/maruf_pulok/"
           fgColor="gray"
           bgColor="transparent"
         />

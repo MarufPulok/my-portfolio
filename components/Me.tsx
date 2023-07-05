@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import demo from "../public/assets/demo.jpg";
+import me from "../public/assets/me.jpeg";
 import BackgroundCircles from "./BackgroundCircles";
 
 export default function Me() {
@@ -21,7 +21,7 @@ export default function Me() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        src={demo}
+        src={me}
         alt=""
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
       />
